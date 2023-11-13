@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGE Gallery</title>
+    <style>
+
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
+        }
+        .container div{
+            border: 1px solid coral;
+        }
+      
+        .img1{
+            background: url(../IMAGE/IMAGE1.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 200px;
+            grid-column: 1/3;
+          
+        }
+        .img2{
+            background: url(../IMAGE/IMAGE2.avif);
+             background-position: center;
+            background-size: cover;
+            height: 200px;
+        }
+        .img3{
+            background: url(../IMAGE/IMAGE4.jpg);
+
+             background-position: center;
+            background-size: cover;
+            height: 200px;
+
+        }
+        .img4{
+            background: url(../IMAGE/IMAGE3.jpg);
+
+             background-position: center;
+            background-size: cover;
+            height: 200px;
+            grid-column: 2/4;
+        }
+        .img5{
+            background: url(../IMAGE/IMAGE5.5.jpg);
+            background-position: center;
+            background-size: cover;
+            grid-column: 1/3;
+            height: 200px;
+        }
+        .img6{
+            background: url(../IMAGE/IMAGE6.jpg);
+             background-position: center;
+            background-size: cover;
+            height: 200px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="img1 "></div>
+        <div class="img2 "></div>
+        <div class="img3 "></div>
+        <div class="img4 "></div>
+        <div class="img5 "></div>
+        <div class="img6 "></div>
+    </div>
+</body>
+</html>
