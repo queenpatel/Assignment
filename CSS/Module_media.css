@@ -1,4 +1,4 @@
-@media (max-width: 576px) { 
+@media (max-width: 642px) { 
 
     .main1,.button1,.ul1,.ul2{ 
         display: none;
@@ -51,7 +51,7 @@ gap: 30px;
     
     .logo23 {
         top: 30px;
-        left: 410px;
+        left: 390px;
     }
     
     .logo24 {
@@ -83,6 +83,11 @@ text-align: center;
     
     }
     .flex2,.flex3{
+        display: none;
+    }
+}
+@media (max-width: 1200px) {
+    .logo24, .logo25{
         display: none;
     }
 }

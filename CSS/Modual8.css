@@ -164,6 +164,7 @@
     position: absolute;
     top: 30px;
     left: 100px;
+    ;
 }
 
 .logo22 {
@@ -320,4 +321,11 @@ padding-top: 50px;
  }
  .kkk{
     padding: 60px 0px 00px 30px;
+ }
+ .footer{
+    display: flex;
+    justify-content: space-around;
+ }
+ .footer ul{
+    list-style: none;
  }
